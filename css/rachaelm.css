@@ -1,0 +1,71 @@
+body {
+	cursor: url('peachcursor.cur'), auto;
+	height: 100vh;
+	background-color: #ffdee6;
+}
+
+/*.index-background {
+	background-image: url("me-suma-.gif");
+
+}*/
+img {
+	max-width: 500px;
+}
+.imgs {
+	text-align: center;
+}
+
+h2 {
+	font-family: sneakers-script-ultra-wide, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #ff0040;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.title {
+	font-family: sneakers-script, sans-serif;
+	font-size: 20px;
+	color: #ff0040;
+	letter-spacing: 2px;
+
+}
+
+.selectors {
+	text-align: center;
+}
+
+.prompt {
+	color: #ff0040;
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+}
+.response {
+	color: #ff7d9d;
+	font-family: 'Jost', sans-serif;
+	background-color: white;
+	max-width: 90%;
+	padding: 8px;
+	border: solid #ff0040 3px;
+	text-align: left;
+
+}
+
+.answers {
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+<<<<<<< HEAD
+}
+
+.description {
+	color: #ff7d9d;
+	font-family: 'Jost', sans-serif;
+	font-size: 14px;
+	max-width: 500px;
+}
+
+
+
+

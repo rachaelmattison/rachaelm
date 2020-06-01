@@ -1,5 +1,5 @@
 body {
-	cursor: url('cursor.cur'), auto;
+	/*cursor: url('cursor.cur'), auto;*/
 	height: 100vh;
 	background-color: #ffdee6;
 }
@@ -18,12 +18,11 @@ body {
 	text-align: center;
 	color: black;
 }
-/*.index-background {
-	background-image: url("me-suma-.gif");
 
-}*/
+
 img {
 	max-width: 500px;
+	max-height: 500px;
 }
 .imgs {
 	text-align: center;
@@ -80,8 +79,25 @@ h2 {
 	max-width: 500px;
 }
 
+.sketchbkimgs {
+	border-left: solid white 150px;
+	border-right: solid white 10px;
+	position: sticky;
+	max-width: 80%;
+	overflow-x: visible;
+}
 
+.return {
+	float: left;
+	position: sticky;
+	max-width: 10px;
+}
 
+.me {
+	max-width: 400px;
+	float: left;
+	padding: 10px;
+}
 
 /*div {
 	position: absolute;

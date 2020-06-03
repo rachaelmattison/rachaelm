@@ -58,7 +58,7 @@ h2 {
 	color: #ff7d9d;
 	font-family: 'Jost', sans-serif;
 	background-color: white;
-	max-width: 90%;
+	max-width: 80%;
 	padding: 8px;
 	border: solid #ff0040 3px;
 	text-align: left;
@@ -67,7 +67,7 @@ h2 {
 
 .answers {
 	text-align: center;
-	position: absolute;
+	align-content: center;
 	display: inline-block;
 
 }
@@ -96,6 +96,27 @@ h2 {
 .me {
 	max-width: 400px;
 	float: left;
+	border: solid white 3px;
+}
+
+.aboutme {
+	font-size: 15px;
+	font-family: 'Jost', sans-serif;
+	color: #ff0040;
+	padding: 5px;
+}
+
+
+.RMtitle {
+	font-size: 40px;
+	color: #ff0040;
+	font-family: sneakers-script, sans-serif;
+	padding: 5px;
+}
+
+.box {
+	max-width: 90%;
+	border: 10px;
 	padding: 10px;
 }
 

@@ -15,9 +15,6 @@ var sketchbookimgs = [
 	"pic" : "<img src='https://d2w9rnfcy7mm78.cloudfront.net/7499736/large_40080242219d29e7f2b11d79f306bf65.png?1590978213?bc=0'>"
 },
 {
-	"pic" : "<img src='https://d2w9rnfcy7mm78.cloudfront.net/7499737/large_1f36d512ec7a7212839e00256c0cb11d.png?1590978235?bc=0'>"
-},
-{
 	"pic" : "<img src='https://d2w9rnfcy7mm78.cloudfront.net/7499741/large_b014590af005fa72afee3789584bbd59.png?1590978277?bc=0'>"
 },
 {
@@ -309,25 +306,51 @@ var sketchbookimgs = [
 }
 ]
 
-for (var i=0; i<sketchbookimgs.length; i++) {
-	var skbkimgsDiv = $('<div/>' , {
-		'class' : 'box' + i
-	})
-	.data('sketchbookimgs', sketchbookimgs[i])
-	.html(sketchbookimgs[i].pic)
-	.css({'background-image' : sketchbookimgs[i].pic})
-	.css({'position' : 'sticky'})
+// for (var i=0; i<sketchbookimgs.length; i++) {
+// 	var skbkimgsDiv = $('<div/>' , {
+// 		'class' : 'box' + i
+// 	})
+// 	.data('sketchbookimgs', sketchbookimgs[i])
+// 	.html(sketchbookimgs[i].pic)
+// 	.css({'background-image' : sketchbookimgs[i].pic})
+// 	.css({'position' : 'sticky'})
 
-	$('.sketchbkimgs').append(skbkimgsDiv)
+// 	$('.sketchbkimgs').append(skbkimgsDiv)
+// }
+
+// function changeBackgroundColor(color) {
+// 	document.getElementById('mousemove').style.backgroundColor=color;
+// }
+
+// $(body).onmousemove(function(color) {
+// 	$(body).css({'background-color' : 'magenta'})
+
+// })
+
+document.onmousemove = function changeBackgroundColor (event) {
+	var draw = document.createElement("div");
+	draw.style.top = event.y + "px";
+	draw.style.left = event.x + "px";
+	draw.style.backgroundColor = ('magenta');
+	document.body.appendChild(draw);
 }
 
 
+
+// document.onmousemove = function (event) {
+// 	var draw = document.createElement("div");
+// 	draw.style.top = event.y + "px";
+// 	draw.style.left = event.x + "px";
+// 	draw.style.backgroundColor = ("magenta");
+// 	document.body.appendChild(draw);
+
+// }
 
 // var color = 0;
 // document.onmousemove = function (event) {
 // 	var div = document.createElement("div");
 // 	// could call div whatever i want
-// 	div.style.top = event.y + "px";
+// 	div.style.top = e vent.y + "px";
 // 	div.style.left = event.x + "px";
 // 	div.style.backgroundColor = "hsl("+ color + ", 100%, 50%)";
 // 	document.body.appendChild(div);

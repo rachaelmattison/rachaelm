@@ -1,5 +1,5 @@
 body {
-	/*cursor: url('cursor.cur'), auto;*/
+	cursor: url('cursor.cur'), auto;
 	height: 100vh;
 	background-color: #ffdee6;
 }
@@ -12,12 +12,8 @@ body {
 	color: black;
 }
 
-.blm2 {
-	font-size: 40px;
-	font-family: sneakers-script-ultra-wide, sans-serif;
-	letter-spacing: 2px;
-	text-align: center;
-	color: black;
+.blm:hover {
+	color: magenta;
 }
 
 
@@ -38,13 +34,21 @@ h2 {
 	letter-spacing: 2px;
 }
 
+h2:hover {
+	color: magenta;
+}
+
 .title {
 	font-family: sneakers-script, sans-serif;
 	font-size: 20px;
 	color: #ff0040;
 	letter-spacing: 2px;
-
 }
+
+.title:hover {
+	color: magenta;
+}
+
 
 .selectors {
 	text-align: center;
@@ -70,7 +74,6 @@ h2 {
 	text-align: center;
 	align-content: center;
 	display: inline-block;
-
 }
 
 .description {
@@ -87,6 +90,7 @@ h2 {
 	max-width: 80%;
 	overflow-x: visible;
 }
+
 
 .return {
 	float: left;
@@ -115,10 +119,24 @@ h2 {
 	padding: 5px;
 }
 
+.RMtitle:hover {
+	color: magenta;
+}
+
 .box {
 	max-width: 90%;
 	border: 10px;
 	padding: 10px;
+}
+
+#mousemove {
+	opacity: 80%;
+	width: 20px;
+	height: 20px;
+	background-color: magenta;
+	margin-left: -25px;
+	margin-top: -25px;
+	border-radius: 22px;
 }
 
 /*div {

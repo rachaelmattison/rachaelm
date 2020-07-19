@@ -5,7 +5,7 @@ body {
 }
 
 .blm {
-	font-size: 50px;
+	font-size: 30px;
 	font-family: sneakers-script-ultra-wide, sans-serif;
 	letter-spacing: 2px;
 	text-align: center;
@@ -138,6 +138,45 @@ h2:hover {
 	margin-top: -25px;
 	border-radius: 22px;
 }
+
+.journalpic {
+	width: 100px;
+	margin-right: 300px;
+	animation: slide2 7s infinite ease-out;
+}
+
+.portfoliogif { 
+	width: 100px;
+	animation: slide1 7s infinite ease-out;
+ }
+
+@keyframes slide1 {
+	0%{
+		transform: initial;
+	}
+	50%{
+		transform: initial;
+	}
+	75%{
+		transform: translate(50vw, 0);
+	}
+	100%{
+		transform: initial;
+	}
+}
+
+@keyframes slide2 {
+	0%{
+
+	}
+	25%{
+		transform: translate(50vw, 0);
+	}
+	50%{
+		transform: initial;
+	}
+}
+
 
 /*div {
 	position: absolute;

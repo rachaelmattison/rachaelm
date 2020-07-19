@@ -306,17 +306,17 @@ var sketchbookimgs = [
 }
 ]
 
-// for (var i=0; i<sketchbookimgs.length; i++) {
-// 	var skbkimgsDiv = $('<div/>' , {
-// 		'class' : 'box' + i
-// 	})
-// 	.data('sketchbookimgs', sketchbookimgs[i])
-// 	.html(sketchbookimgs[i].pic)
-// 	.css({'background-image' : sketchbookimgs[i].pic})
-// 	.css({'position' : 'sticky'})
+for (var i=0; i<sketchbookimgs.length; i++) {
+	var skbkimgsDiv = $('<div/>' , {
+		'class' : 'box' + i
+	})
+	.data('sketchbookimgs', sketchbookimgs[i])
+	.html(sketchbookimgs[i].pic)
+	.css({'background-image' : sketchbookimgs[i].pic})
+	.css({'position' : 'sticky'})
 
-// 	$('.sketchbkimgs').append(skbkimgsDiv)
-// }
+	$('.sketchbkimgs').append(skbkimgsDiv)
+}
 
 // function changeBackgroundColor(color) {
 // 	document.getElementById('mousemove').style.backgroundColor=color;
@@ -327,13 +327,46 @@ var sketchbookimgs = [
 
 // })
 
-document.onmousemove = function changeBackgroundColor (event) {
-	var draw = document.createElement("div");
-	draw.style.top = event.y + "px";
-	draw.style.left = event.x + "px";
-	draw.style.backgroundColor = ('magenta');
-	document.body.appendChild(draw);
+// document.onmousemove = function changeBackgroundColor (event) {
+// 	var draw = document.createElement("div");
+// 	draw.style.top = event.y + "px";
+// 	draw.style.left = event.x + "px";
+// 	draw.style.backgroundColor = ('magenta');
+// 	document.body.appendChild(draw);
+// }
+
+
+var mybutton = document.getElementById("topBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+	if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block"; 
+	} else {
+		mybutton.style.display = "none";
+	}
 }
+
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+
+function goBack() {
+	window.history.back();
+}
+
+function ScrollDiv() {
+	if(document.getElementByClass('title').scrollTop<(document.getElementByClass('title').scrollHeight-document.getElementByClass('title').offsetHeight)){-1
+	}
+	else {document.getElementByClass('title').scrollTop=0;}
+}
+
+
+
+
+
+
+
 
 
 

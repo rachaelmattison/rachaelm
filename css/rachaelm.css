@@ -1,19 +1,16 @@
 body {
 	cursor: url('cursor.cur'), auto;
-	height: 100vh;
-	background-color: #ffdee6;
+	height: 3000px;
+	background: #e8f1ff;
 }
 
-.blm {
-	font-size: 30px;
-	font-family: sneakers-script-ultra-wide, sans-serif;
-	letter-spacing: 2px;
+.logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.imgs {
 	text-align: center;
-	color: black;
-}
-
-.blm:hover {
-	color: magenta;
 }
 
 
@@ -21,17 +18,21 @@ img {
 	max-width: 500px;
 	max-height: 500px;
 }
-.imgs {
-	text-align: center;
-}
+
+/*img:hover {
+	max-width: 600px;
+	max-height: 600px;
+}*/
+
+
 
 h2 {
-	font-family: sneakers-script-ultra-wide, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	color: #ff0040;
-	text-align: center;
-	letter-spacing: 2px;
+	color: #ff0015;
+	font-family: 'Jost', sans-serif;
+	max-width: 80%;
+	padding: 8px;
+	text-align: left;
+
 }
 
 h2:hover {
@@ -39,9 +40,9 @@ h2:hover {
 }
 
 .title {
-	font-family: sneakers-script, sans-serif;
+	font-family: 'Jost', sans-serif;
 	font-size: 20px;
-	color: #ff0040;
+	color: #ff0015;
 	letter-spacing: 2px;
 }
 
@@ -55,12 +56,12 @@ h2:hover {
 }
 
 .prompt {
-	color: #ff0040;
+	color: #ff0015;
 	font-family: 'Jost', sans-serif;
 	text-align: center;
 }
 .response {
-	color: #ff7d9d;
+	color: #ff0015;
 	font-family: 'Jost', sans-serif;
 	background-color: white;
 	max-width: 80%;
@@ -77,8 +78,8 @@ h2:hover {
 }
 
 .description {
-	color: #ff7d9d;
-	font-family: 'Jost', sans-serif;
+	color: #ff0015;
+	font-family: 'Space Mono', monospace;
 	font-size: 14px;
 	max-width: 500px;
 }
@@ -106,16 +107,16 @@ h2:hover {
 
 .aboutme {
 	font-size: 15px;
-	font-family: 'Jost', sans-serif;
-	color: #ff0040;
+	font-family: 'Space Mono', monospace;
+	color: #ff0015;
 	padding: 5px;
 }
 
 
 .RMtitle {
 	font-size: 40px;
-	color: #ff0040;
-	font-family: sneakers-script, sans-serif;
+	color: #ff0015;
+	font-family: 'Space Mono', monospace;
 	padding: 5px;
 }
 
@@ -177,6 +178,16 @@ h2:hover {
 	}
 }
 
+
+
+.returnhome {
+	
+	color: #ff0015;
+	font-family: 'Space Mono', monospace;
+	font-size: 14px;
+	max-width: 500px;
+
+}
 
 /*div {
 	position: absolute;

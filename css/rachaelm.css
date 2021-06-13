@@ -1,8 +1,106 @@
+/*body {
+	background: linear-gradient( #f9ffe8 , #ebfdff , #d6d8ff);
+}*/
+
+
+
+
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Jost', sans-serif;
+	font-size: 15px;
+	color: magenta;
+	
+}
+
+
+h2 {
+	font-family: 'Jost', sans-serif;
+	font-size: 15px;
+	
+}
+
+
+.intro {
+	max-width: 250px;
+	font-kerning: 10pt;
+	color: magenta;
+}
+
+p {
+	font-size: 15px;
+	font-family: 'Jost', sans-serif;
+	color: magenta;
+
+}
+
+.pics {
+	max-width: 250px;
+	padding: 10px;
+
+
+}
+
+.bigpics {
+	float: right;
+	max-width: 800px;
+	padding: 10px;
+}
+
+.bigimages {
+	float: right;
+	padding: 10px;
+	/*max-width: 800px; */
+}
+
+#important {
+	position: sticky;
+	position: fixed;
+	padding: 5px;
+}
+
+
+.brainicon {
+	max-width: 80px;
+
+}
+
+.logo {
+	top: 10px;
+	max-width: 250px;
+}
+
+
+#smallpic {
+	float: right;
+	padding: 10px;
+	max-width: 1500px;
+}
+
+
+
+.intrologo {
+	float: left;
+	position: sticky;
+	position: fixed;
+	padding: 2px;
+}
+
+
+
+
+
+
+
 body {
 	cursor: url('cursor.cur'), auto;
-	height: 3000px;
-	background: #e8f1ff;
-}
+	
+
+/*}
 
 .logo {
 	max-width: 100px;
@@ -26,14 +124,14 @@ img {
 
 
 
-h2 {
+/*h2 {
 	color: #ff0015;
 	font-family: 'Jost', sans-serif;
 	max-width: 80%;
 	padding: 8px;
 	text-align: left;
 
-}
+}*/
 
 h2:hover {
 	color: magenta;
@@ -188,7 +286,7 @@ h2:hover {
 	max-width: 500px;
 
 }
-
+*/
 /*div {
 	position: absolute;
 	width: 50px;

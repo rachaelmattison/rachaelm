@@ -65,7 +65,7 @@ p {
 	position: sticky;
 	position: fixed;
 	padding: 5px;
-	/*overflow: auto;*/
+	overflow: auto;
 }
 
 

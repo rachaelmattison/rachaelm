@@ -80,6 +80,11 @@ p {
 	/*overflow: auto;*/
 }
 
+.logo1 {
+	top: 10px;
+	width: 150px;
+}
+
 
 #smallpic {
 	float: right;

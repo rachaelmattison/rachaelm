@@ -1,3 +1,289 @@
+.bigpicst {
+	float: center;
+    display: inline;
+    position: relative;
+   }
+
+.bigpicstL {
+	float: center;
+	display: inline;
+	position: relative;
+	align-content: center;
+
+}
+.tTitles {
+	font-family: 'Jost', sans-serif,bold;
+	font-size: 30px;
+	color: magenta;
+}
+
+.tCaptions{
+	font-family: 'Jost', sans-serif;
+	font-size: 25px;
+	color: magenta;
+}
+
+
+/*img {
+	max-width: 450px;
+}*/
+
+.specialpic {
+	max-width: 1000px;
+}
+
+.tpic {
+	max-width: 450px;
+}
+
+
+
+
+
+.rightinfo {
+	float: right;
+	width: 122px;
+	padding: 10px;
+	height: 1000px;
+	top: 0;
+	background-color: white;
+}
+
+
+#index {
+	position: sticky;
+	position: fixed;
+	height: 1000px;
+	width: 1000px;
+	background-color: white;
+	/*overflow: auto;*/
+}
+
+
+#centerscroll {
+	align-content: center;
+}
+
+
+.webcomic {
+	max-width: 1000px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.welcome {
+	text-align: center;
+	text-orientation: center;
+}
+
+.welcomegif {
+	max-width: 1500px;
+	max-height: 1000px;
+	margin-left: 300px;
+}
+
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+h3 {
+	font-family: 'Jost', sans-serif;
+	font-size: 15px;
+	color: magenta;
+}
+
+
+
+h2 {
+	font-family: 'Jost', sans-serif;
+	font-size: 20px;
+	color: magenta;
+	}
+
+
+
+/*.intro {
+	top: 300px;
+	width: 200px;
+	font-kerning: 10pt;
+	color: magenta;
+	/*overflow: auto;
+	float: top;
+	flex-wrap: auto;
+}*/
+
+p {
+	font-size: 15px;
+	font-family: 'Jost', sans-serif;
+	color: magenta;
+	font-weight: bolder;
+
+}
+
+.pics {
+	max-width: 250px;
+	padding: 10px;
+
+
+}
+
+.bigpics {
+	float: right;
+	max-width: 800px;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+
+.bigimages {
+	float: right;
+	padding: 10px;
+	display: table-cell;
+	vertical-align: right;
+	/*max-width: 800px; */
+}
+
+#important {
+	position: sticky;
+	position: fixed;
+	padding: 5px;
+	overflow: auto;
+}
+
+
+
+
+
+
+
+.brainicon {
+	max-width: 80px;
+}
+
+.brainiconH {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+
+.brainiconH:hover {
+	background-color: magenta;
+}
+
+
+
+
+.logo {
+	top: 5px;
+	width: 200px;
+	/*overflow: auto;*/
+}
+
+.logo1 {
+	top: 10px;
+	width: 150px;
+}
+
+
+
+#smallpic {
+	float: right;
+	padding: 10px;
+	max-width: 1500px;
+}
+
+
+
+/*.intrologo {
+	float: left;
+	position: sticky;
+	position: fixed;
+	padding: 2px;
+}*/
+
+
+
+.bigpics2 {
+	float: right;
+	max-width: 800px;
+	padding: 10px; 
+}
+
+.bigpics2:hover {
+	max-width: 950px;
+}
+
+
+
+/*.hoverlink:hover {
+	cursor: url('cursorpurp.cur') , auto;
+}*/
+
+body {
+	cursor: 
+	url('cursor.cur'), auto;
+}
+	
+
+
+#logo {
+	float: left;
+	padding: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*body {
 	background: linear-gradient( #f9ffe8 , #ebfdff , #d6d8ff);
 }*/
@@ -6,7 +292,7 @@
 
 
 
-h1 {
+/*h1 {
 	font-family: 'Work Sans', sans-serif;
 }
 
@@ -31,7 +317,7 @@ h2 {
 	font-kerning: 10pt;
 	color: magenta;
 	/*overflow: auto;*/
-	float: top;
+/*	float: top;
 	flex-wrap: auto;
 }
 
@@ -59,7 +345,7 @@ p {
 	float: right;
 	padding: 10px;
 	/*max-width: 800px; */
-}
+/*}
 
 #important {
 	position: sticky;
@@ -78,7 +364,7 @@ p {
 	top: 10px;
 	width: 250px;
 	/*overflow: auto;*/
-}
+/*}
 
 .logo1 {
 	top: 10px;
@@ -109,8 +395,8 @@ p {
 
 body {
 	cursor: url('cursor.cur'), auto;
-	
-
+	*//
+/*/
 /*}
 
 .logo {

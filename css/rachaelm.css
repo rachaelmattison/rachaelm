@@ -41,13 +41,14 @@
 
 
 .links {
-	float: center
-	width: 122px;
-	padding: 10px;
+	font-family: monospace, serif;
+	color: #ff00ff;
+	font-size: 20px;
+	color: magenta;
 }
 
 
-#index {
+/*#index {
 	position: sticky;
 	position: fixed;
 	height: 1000px;
@@ -101,7 +102,7 @@ h3 {
 h2 {
 	font-family: monospace, serif;
 	color: #ff00ff;
-	font-size: 20px;
+	font-size: 25px;
 	color: magenta;
 	}
 
@@ -118,7 +119,7 @@ h2 {
 }*/
 
 p {
-	font-size: 15px;
+	font-size: 20px;
 	font-family: monospace, serif;
 	color: #ff00ff;
 	color: magenta;
@@ -257,4 +258,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.rightinfo {
+	text-align: right;
+	float: right;
 }

@@ -40,13 +40,10 @@
 
 
 
-.rightinfo {
-	float: right;
+.links {
+	float: center
 	width: 122px;
 	padding: 10px;
-	height: 1000px;
-	top: 0;
-	background-color: white;
 }
 
 
@@ -55,7 +52,6 @@
 	position: fixed;
 	height: 1000px;
 	width: 1000px;
-	background-color: white;
 	/*overflow: auto;*/
 }
 
@@ -88,12 +84,14 @@
 
 
 h1 {
-	font-family: 'Work Sans', sans-serif;
+	font-family: monospace, serif;
+	color: #ff00ff;
 }
 
 
 h3 {
-	font-family: 'Jost', sans-serif;
+	font-family: monospace, serif;
+	color: #ff00ff;
 	font-size: 15px;
 	color: magenta;
 }
@@ -101,7 +99,8 @@ h3 {
 
 
 h2 {
-	font-family: 'Jost', sans-serif;
+	font-family: monospace, serif;
+	color: #ff00ff;
 	font-size: 20px;
 	color: magenta;
 	}
@@ -120,7 +119,8 @@ h2 {
 
 p {
 	font-size: 15px;
-	font-family: 'Jost', sans-serif;
+	font-family: monospace, serif;
+	color: #ff00ff;
 	color: magenta;
 	font-weight: bolder;
 
@@ -134,7 +134,7 @@ p {
 }
 
 .bigpics {
-	float: right;
+	float: center;
 	max-width: 800px;
 	padding: 10px;
 	display: inline-block;
@@ -237,4 +237,24 @@ body {
 	float: left;
 	padding: 3px;
 
+}
+
+
+
+
+.introducingme {
+	width: 50%;
+}
+
+.biopic {
+	max-width: 333px;
+}
+
+
+
+
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

@@ -264,3 +264,28 @@ body {
 	text-align: right;
 	float: right;
 }
+
+
+
+#homebutton {
+	position: sticky;
+	position: fixed;
+	padding: 5px;
+	overflow: auto;
+	max-width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

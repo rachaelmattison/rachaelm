@@ -9,18 +9,35 @@
 // }]
 
 
-let aboutme = document.getElementById("aboutme");
-let footer = document.getElementById("footer");
-footer.addEventListener("click", hideFooter);
-aboutme.addEventListener("click", showFooter);
-function hideFooter(){
-	footer.style.display = "none";
+const footer = document.getElementById("footer");
+const aboutme = document.getElementById("aboutment");
+aboutme.onclick = function() {
+	if (footer.style.display !== "none") {
+		footer.style.display = "none";
+	} else {
+		footer.style.display = "block";
+	}
 }
 
-function showFooter(){
-	console.log("clicked");
-	footer.style.display = "block";
-}
+// let aboutme = document.getElementById("aboutme");
+// let footer = document.getElementById("footer");
+// footer.addEventListener("click", hideFooter);
+// aboutme.addEventListener("click", showFooter);
+// function hideFooter(){
+// 	footer.style.display = "none";
+// }
+
+// function showFooter(){
+// 	console.log("clicked");
+// 	footer.style.display = "block";
+// }
+
+// function showFooter(){
+// 	var  = document.getElementById("footer");
+// 	if (image.style.display = "none");
+// } else {
+// 	image.style.display = "block";
+// }
 
 
 

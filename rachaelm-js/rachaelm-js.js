@@ -9,15 +9,15 @@
 // }]
 
 
-const footer = document.getElementById("footer");
-const aboutme = document.getElementById("aboutment");
-aboutme.onclick = function() {
-	if (footer.style.display !== "none") {
-		footer.style.display = "none";
-	} else {
-		footer.style.display = "block";
-	}
-}
+// const footer = document.getElementById("footer");
+// const aboutme = document.getElementById("aboutment");
+// aboutme.onclick = function() {
+// 	if (footer.style.display !== "none") {
+// 		footer.style.display = "none";
+// 	} else {
+// 		footer.style.display = "block";
+// 	}
+// }
 
 // let aboutme = document.getElementById("aboutme");
 // let footer = document.getElementById("footer");
@@ -42,44 +42,44 @@ aboutme.onclick = function() {
 
 
 
-let digital = document.getElementById("digital");
-let digitalinfo = document.getElementById("digitalinfo");
-digitalinfo.addEventListener("click", hideDigitalinfo);
-digital.addEventListener("click", showDigitalinfo);
-function hideDigitalinfo(){
-	digitalinfo.style.display = "none";
-}
+// let digital = document.getElementById("digital");
+// let digitalinfo = document.getElementById("digitalinfo");
+// digitalinfo.addEventListener("click", hideDigitalinfo);
+// digital.addEventListener("click", showDigitalinfo);
+// function hideDigitalinfo(){
+// 	digitalinfo.style.display = "none";
+// }
 
-function showDigitalinfo(){
-	console.log("clicked");
-	digitalinfo.style.display = "block";
-}
-
-
-let print = document.getElementById("print");
-let printinfo = document.getElementById("printinfo");
-printinfo.addEventListener("click", hidePrintinfo);
-print.addEventListener("click", showPrintinfo);
-function hidePrintinfo(){
-	printinfo.style.display = "none";
-}
-function showPrintinfo(){
-	console.log("clicked");
-	printinfo.style.display = "block";
-}
+// function showDigitalinfo(){
+// 	console.log("clicked");
+// 	digitalinfo.style.display = "block";
+// }
 
 
+// let print = document.getElementById("print");
+// let printinfo = document.getElementById("printinfo");
+// printinfo.addEventListener("click", hidePrintinfo);
+// print.addEventListener("click", showPrintinfo);
+// function hidePrintinfo(){
+// 	printinfo.style.display = "none";
+// }
+// function showPrintinfo(){
+// 	console.log("clicked");
+// 	printinfo.style.display = "block";
+// }
 
-let illustration = document.getElementById("illustration");
-let illustrationinfo = document.getElementById("illustrationinfo");
-illustrationinfo.addEventListener("click", hideIllustrationinfo);
-illustration.addEventListener("click", showIllustrationinfo);
-function hideIllustrationinfo() {
-	illustrationinfo.style.display = "none";
-	}
-	function showIllustrationinfo() {
-		illustrationinfo.style.display = "block";
-	}
+
+
+// let illustration = document.getElementById("illustration");
+// let illustrationinfo = document.getElementById("illustrationinfo");
+// illustrationinfo.addEventListener("click", hideIllustrationinfo);
+// illustration.addEventListener("click", showIllustrationinfo);
+// function hideIllustrationinfo() {
+// 	illustrationinfo.style.display = "none";
+// 	}
+// 	function showIllustrationinfo() {
+// 		illustrationinfo.style.display = "block";
+// 	}
 
 
 

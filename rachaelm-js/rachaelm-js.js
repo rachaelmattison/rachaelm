@@ -9,7 +9,7 @@
 // }]
 
 
-<<<<<<< HEAD
+
 // const footer = document.getElementById("footer");
 // const aboutme = document.getElementById("aboutment");
 // aboutme.onclick = function() {
@@ -19,7 +19,27 @@
 // 		footer.style.display = "block";
 // 	}
 // }
-=======
+
+var mybutton = document.getElementById("topBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+	if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	} else {
+		mybutton.style.display = "none";
+	}
+} 
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+
+
+
+
+
+
+
 const footer = document.getElementById("footer");
 const aboutme = document.getElementById("aboutment");
 aboutme.onclick = function() {
@@ -29,7 +49,7 @@ aboutme.onclick = function() {
 		footer.style.display = "block";
 	}
 }
->>>>>>> 74f45c72ac0ccf5493eb93af19733d8a66626cf6
+
 
 // let aboutme = document.getElementById("aboutme");
 // let footer = document.getElementById("footer");
@@ -54,7 +74,6 @@ aboutme.onclick = function() {
 
 
 
-<<<<<<< HEAD
 // let digital = document.getElementById("digital");
 // let digitalinfo = document.getElementById("digitalinfo");
 // digitalinfo.addEventListener("click", hideDigitalinfo);
@@ -93,7 +112,7 @@ aboutme.onclick = function() {
 // 	function showIllustrationinfo() {
 // 		illustrationinfo.style.display = "block";
 // 	}
-=======
+
 let digital = document.getElementById("digital");
 let digitalinfo = document.getElementById("digitalinfo");
 digitalinfo.addEventListener("click", hideDigitalinfo);
@@ -132,7 +151,6 @@ function hideIllustrationinfo() {
 	function showIllustrationinfo() {
 		illustrationinfo.style.display = "block";
 	}
->>>>>>> 74f45c72ac0ccf5493eb93af19733d8a66626cf6
 
 
 
@@ -145,19 +163,7 @@ function hideIllustrationinfo() {
 
 
 
-var mybutton = document.getElementById("topBtn");
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-	if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		mybutton.style.display = "block";
-	} else {
-		mybutton.style.display = "none";
-	}
-} 
-function topFunction() {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-}
+
 
 
 

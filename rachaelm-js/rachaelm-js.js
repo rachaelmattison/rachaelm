@@ -118,12 +118,12 @@ let digitalinfo = document.getElementById("digitalinfo");
 digitalinfo.addEventListener("click", hideDigitalinfo);
 digital.addEventListener("click", showDigitalinfo);
 function hideDigitalinfo(){
-	digitalinfo.style.display = "none";
+	digitalinfo.style.display = "block";
 }
 
 function showDigitalinfo(){
 	console.log("clicked");
-	digitalinfo.style.display = "block";
+	digitalinfo.style.display = "none";
 }
 
 
@@ -132,11 +132,11 @@ let printinfo = document.getElementById("printinfo");
 printinfo.addEventListener("click", hidePrintinfo);
 print.addEventListener("click", showPrintinfo);
 function hidePrintinfo(){
-	printinfo.style.display = "none";
+	printinfo.style.display = "block";
 }
 function showPrintinfo(){
 	console.log("clicked");
-	printinfo.style.display = "block";
+	printinfo.style.display = "none";
 }
 
 
@@ -146,10 +146,10 @@ let illustrationinfo = document.getElementById("illustrationinfo");
 illustrationinfo.addEventListener("click", hideIllustrationinfo);
 illustration.addEventListener("click", showIllustrationinfo);
 function hideIllustrationinfo() {
-	illustrationinfo.style.display = "none";
+	illustrationinfo.style.display = "block";
 	}
 	function showIllustrationinfo() {
-		illustrationinfo.style.display = "block";
+		illustrationinfo.style.display = "none";
 	}
 
 

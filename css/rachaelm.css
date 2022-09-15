@@ -52,7 +52,7 @@
 	justify-content: center;
 	text-align: left;
 	position: absolute;
-	padding: 10px;
+	padding: 20px;
 }
 
 #digitalinfo {
@@ -73,6 +73,7 @@
 	display: none;
 	float: center;
 	position: absolute;
+	padding: 10px;
 }
 
 #floralinfo {
@@ -153,7 +154,7 @@ h3 {
 h2 {
 	font-family: 'VT323', monospace;
 	color: #a1a4ff;
-	font-size: 25px;
+	font-size: 35px;
 	color: #a1a4ff;
 	}
 
@@ -299,12 +300,12 @@ body {
 
 .introducingme {
 	width: 50%;
+	padding: 10px;
 }
 
 .biopic {
-	max-width: 333px;
+	max-height: 555px;
 	border: 2px #ff00ff;
-	border-radius: 10px;
 }
 
 
@@ -400,8 +401,8 @@ img {
 	font-family: 'VT323', monospace;
 	font-size: 20px;
 	position: fixed;
-	left: 0;
-	bottom: 0;
+	bottom: 5px;
+	left: 30px;
 	padding:3px;
 }
 
@@ -412,3 +413,12 @@ h4 {
 	color: #a1a4ff;
 }
 
+
+.indexpic {
+	width: 500px;
+	height: 500px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 

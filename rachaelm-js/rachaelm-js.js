@@ -41,7 +41,7 @@ function topFunction() {
 
 
 const footer = document.getElementById("footer");
-const aboutme = document.getElementById("aboutment");
+const aboutme = document.getElementById("aboutme");
 aboutme.onclick = function() {
 	if (footer.style.display !== "none") {
 		footer.style.display = "none";

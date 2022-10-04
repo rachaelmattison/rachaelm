@@ -99,6 +99,13 @@
 	float: center;
 	position: absolute;
 }
+
+#posterillu {
+	display: none; 
+	float: center;
+	position: absolute;
+}
+
 /*#index {
 	position: sticky;
 	position: fixed;
